@@ -1,32 +1,32 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="25" inline="true" x="333" y="39">
+  <block type="controls_repeat" id="1" inline="true" x="225" y="81">
     <value name="TIMES">
-      <block type="math_number" id="45">
+      <block type="math_number" id="2">
         <field name="NUM">23</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_right" id="165">
+      <block type="movement_right" id="3">
         <next>
-          <block type="movement_right" id="166">
+          <block type="movement_right" id="4">
             <next>
-              <block type="movement_right" id="175">
+              <block type="movement_right" id="5">
                 <next>
-                  <block type="movement_right" id="167">
+                  <block type="movement_right" id="6">
                     <next>
-                      <block type="movement_left" id="152">
+                      <block type="movement_left" id="7">
                         <next>
-                          <block type="movement_left" id="153">
+                          <block type="movement_left" id="8">
                             <next>
-                              <block type="movement_left" id="154">
+                              <block type="movement_left" id="9">
                                 <next>
-                                  <block type="movement_left" id="155">
+                                  <block type="movement_left" id="10">
                                     <next>
-                                      <block type="movement_forward" id="55">
+                                      <block type="movement_forward" id="11">
                                         <next>
-                                          <block type="movement_reverse" id="142">
+                                          <block type="movement_reverse" id="12">
                                             <next>
-                                              <block type="movement_forward" id="132"></block>
+                                              <block type="movement_forward" id="13"></block>
                                             </next>
                                           </block>
                                         </next>
@@ -49,14 +49,14 @@
       </block>
     </statement>
     <next>
-      <block type="robot_delay" id="80" inline="true">
+      <block type="robot_delay" id="14" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="96">
+          <block type="math_number" id="15">
             <field name="NUM">400</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="115"></block>
+          <block type="movement_stop" id="16"></block>
         </next>
       </block>
     </next>
